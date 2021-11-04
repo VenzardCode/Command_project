@@ -10,6 +10,7 @@ import {MatIconModule} from "@angular/material/icon";
 import {MatSidenavModule} from "@angular/material/sidenav";
 import {MatListModule} from "@angular/material/list";
 import {MatTabsModule} from "@angular/material/tabs";
+import { HttpClientModule } from '@angular/common/http';
 
 const routes: Routes =[
   {
@@ -44,7 +45,8 @@ const routes: Routes =[
     MatIconModule,
     MatSidenavModule,
     MatListModule,
-    MatTabsModule
+    MatTabsModule,
+    HttpClientModule
 
   ],
   providers: [],
